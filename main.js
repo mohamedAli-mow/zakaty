@@ -50,15 +50,6 @@ document.getElementById("calculateBtn").onclick = function zaka() {
     fontSize: 25px;
     `;
     }
-    document.getElementById("price24").value = "";
-    document.getElementById("price21").value = "";
-    document.getElementById("price18").value = "";
-    document.getElementById("pricesilver").value = "";
-    document.getElementById("input24").value = "";
-    document.getElementById("input21").value = "";
-    document.getElementById("input18").value = "";
-    document.getElementById("inputSilver").value = "";
-    document.getElementById("inputCash").value = "";
     let ifSilver = document.getElementById("pricesilver");
     ifSilver.style.cssText = `
     border: none;
